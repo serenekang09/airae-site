@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Content Manager</title>
+    <title>Admin</title>
 
-    <!-- Netlify Identity widget (토큰 처리 담당) -->
+    <!-- ✅ 이게 토큰 처리 담당 -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <!-- Decap CMS -->
@@ -12,7 +12,6 @@
   </head>
   <body>
     <script>
-      // 로그인하면 /admin/에 머물게 (가끔 루트로 튀는 거 방지)
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", (user) => {
           if (!user) {
@@ -25,14 +24,4 @@
       }
     </script>
   </body>
-</html>
-
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Content Manager</title>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  </head>
-  <body></body>
 </html>
