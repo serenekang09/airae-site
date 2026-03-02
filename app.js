@@ -10,7 +10,6 @@
    ref 폴더 이미지 파일명을 그대로 활용
 ──────────────────────────────────────────────── */
 const WORKS = [
- let WORKS = [];
 
 async function loadWorks() {
   const res = await fetch('/content/works.json', { cache: 'no-store' });
@@ -1071,4 +1070,5 @@ function resetImageUploadUI(previewWrapId, dropZoneId, previewImgId) {
   if (dropZone) dropZone.classList.remove('hidden');
   if (previewImg) previewImg.src = '';
 }
+
 
