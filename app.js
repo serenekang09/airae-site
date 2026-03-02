@@ -9,14 +9,7 @@
    WORKS DATA
    ref 폴더 이미지 파일명을 그대로 활용
 ──────────────────────────────────────────────── */
-const WORKS = [
-
-async function loadWorks() {
-  const res = await fetch('/content/works.json', { cache: 'no-store' });
-  if (!res.ok) throw new Error('works.json 로드 실패: ' + res.status);
-  WORKS = await res.json();
-}
-];
+let WORKS = [];
 
 /* ──────────────────────────────────────────────
    LOG DATA
@@ -1070,5 +1063,6 @@ function resetImageUploadUI(previewWrapId, dropZoneId, previewImgId) {
   if (dropZone) dropZone.classList.remove('hidden');
   if (previewImg) previewImg.src = '';
 }
+
 
 
