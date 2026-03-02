@@ -15,49 +15,7 @@ let WORKS = [];
    LOG DATA
 ──────────────────────────────────────────────── */
 const LOGS = [
-  {
-    date: '2024. 11',
-    tag: '작업 메모',
-    title: '"Muted Flower" 시리즈 마무리',
-    memo: '꽃의 침묵과 체류에 관한 마지막 레이어 작업 완료. 이미지와 향조의 정합 검토 중.'
-  },
-  {
-    date: '2024. 09',
-    tag: '전시 소식',
-    title: '그룹 전시 — 《체류하는 감각들》 참여',
-    memo: '서울 소재 독립 공간에서 진행된 그룹전. "La Vie Dor" 및 "Desire Before Drowning" 수록.'
-  },
-  {
-    date: '2024. 06',
-    tag: '업데이트',
-    title: 'AIRAE 아카이브 1차 오픈',
-    memo: '10점의 작업을 담아 비판매 아카이브로 사이트를 개설합니다. 이 공간은 기록의 공간입니다.'
-  },
-  {
-    date: '2024. 03',
-    tag: '작업 메모',
-    title: '"Level Unlocked" 개념 정립',
-    memo: '성취 이후의 공백에 관한 작업. 금속 냄새와 형광등 빛을 교차시키는 실험 진행.'
-  },
-  {
-    date: '2023. 11',
-    tag: '작업 메모',
-    title: '"Forbidden Fig" — 억제와 향기 기억 연구',
-    memo: '억제된 욕망이 후각 기억에 더 깊이 새겨진다는 가설 탐구. 무화과 향을 중심으로.'
-  },
-  {
-    date: '2023. 05',
-    tag: '전시 소식',
-    title: '개인 리서치 전시 — 《감정이 체류하는 공간》',
-    memo: '스튜디오 오픈 형식의 소규모 발표. 방문자와 직접 향을 경험하고 기록을 공유.'
-  },
-  {
-    date: '2022. 12',
-    tag: '업데이트',
-    title: '"Worn by The City" 시리즈 완성',
-    memo: '도시의 마모와 감각 체류에 관한 작업. 도시-인간 관계를 후각과 시각으로 병치.'
-  },
-  {
+   {
     date: '2022. 04',
     tag: '작업 메모',
     title: '감정체류(Emotional Residency) 개념 선언',
@@ -1063,6 +1021,7 @@ function resetImageUploadUI(previewWrapId, dropZoneId, previewImgId) {
   if (dropZone) dropZone.classList.remove('hidden');
   if (previewImg) previewImg.src = '';
 }
+
 
 
 
