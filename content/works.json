@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "muted-flower",
+    "title": "Muted Flower",
+    "year": 2024,
+    "image": "/images/Muted Flower.png",
+    "tags": ["quiet", "shadow", "white-flower"],
+    "desc": "고요에 젖은 꽃의 그림자."
+  },
+  {
+    "slug": "desire-before-drowning",
+    "title": "Desire before Drowning",
+    "year": 2024,
+    "image": "/images/Desire before Drowning.png",
+    "tags": ["sea", "red", "tuberose"],
+    "desc": "바닷바람에 흔들리는 튜베로즈."
+  }
+]
