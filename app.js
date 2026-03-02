@@ -10,106 +10,13 @@
    ref 폴더 이미지 파일명을 그대로 활용
 ──────────────────────────────────────────────── */
 const WORKS = [
-  {
-    id: 'muted-flower',
-    title: 'Muted Flower',
-    year: '2024',
-    image: 'images/ref/Muted Flower.png',
-    emotion: '염습되는 것들, 종소리를 잏는 순간. 화려함이 극에 달하는 것이 아니라 소리를 잏는 방식으로. 이 작업은 조용함이 힘일 수 있다는 가정에서 시작한다.',
-    scent: '흘 모란 · 말린 라벤더 · 냉기 도는 무기질',
-    visual: '흐릿한 꽃 이미지와 텐 빈 여백의 대비. 초점이 맞지 않은 경계.',
-    writing: '무성한 것들 사이에서 가장 조용한 것이\n가장 오래 체류한다.\n그것을 꽃이라고 불렀다.'
-  },
-  {
-    id: 'la-vie-dor',
-    title: 'La Vie Dor',
-    year: '2024',
-    image: "images/ref/La Vie Dor.png",
-    emotion: '황금의 삶이 아니라, 황금빛이 스치고 간 자리. 체류한 것은 빛이 아니라 빛이 였던 온기다.',
-    scent: '금목서 · 따뜻한 밀랍 · 겓 인쇄된 종이',
-    visual: '금빛 입자가 흘어지는 정적인 구도. 빛이 아직 공기 중에 있는 것 같은 순간.',
-    writing: '어떤 하루들은\n지나간 뒤에도 피부 위에 남는다.\n그것이 황금이라는 것을 나중에야 알았다.'
-  },
-  {
-    id: 'desire-before-drowning',
-    title: 'Desire Before Drowning',
-    year: '2023',
-    image: 'images/ref/Desire before Drowning.png',
-    emotion: '익사 직전의 욕망. 포기가 아니라 마지막 감각의 밀도가 극대화되는 순간에 관한 연구.',
-    scent: '젖은 소금 · 짙은 바다 · 해조류의 쓴 맛',
-    visual: '수면 아래에서 올려다본 빛. 경계가 흔들리는 수중 구도.',
-    writing: '원하는 것들이\n무게가 되어 가라앉기 직전—\n그 찰나가 가장 선명하다.'
-  },
-  {
-    id: 'forbidden-fig',
-    title: 'Forbidden Fig',
-    year: '2023',
-    image: 'images/ref/Forbidden Fig.png',
-    emotion: '금지된 것의 향기는 왜 더 오래 체류하는가. 억제된 욕망이 감각 기억에 깊이 새겨지는 방식에 대한 탐구.',
-    scent: '무화과 잎 · 수지 · 흑 냄새의 달콤함',
-    visual: '무화과의 단면. 잘리고 드러난 내부의 붉음과 물기.',
-    writing: '먹지 않은 것이\n먹은 것보다 더 오래\n입 안에 남는다.'
-  },
-  {
-    id: 'level-unlocked',
-    title: 'Level Unlocked',
-    year: '2023',
-    image: 'images/ref/Level Unlocked.png',
-    emotion: '성취의 순간에 체류하는 감정은 승리가 아니라 낙섹함이다. 다음 단계로 넘어가는 문을 열었을 때의 공허와 기이한 정적.',
-    scent: '금속 냄새 · 새 플라스틱 · 차가운 형광등',
-    visual: '빈 방에 갑자기 불이 켜지는 느낌. 획득과 동시에 찾아오는 고요.',
-    writing: '통과했다.\n그리고 아무것도 없었다.\n그것이 다음이었다.'
-  },
-  {
-    id: 'my-cloud',
-    title: 'My Cloud',
-    year: '2023',
-    image: 'images/ref/My Cloud.png',
-    emotion: '나만의 구름. 자신이 혼자 유지해온 감정의 기후. 아무도 모르게 만들어온 날씨.',
-    scent: '비 오기 직전의 공기 · 오존 · 깨끗한 시트',
-    visual: '손구름의 질감과 빛. 위에서 내려다본 구름 덮인 지구.',
-    writing: '내가 가진 구름은\n내가 만든 것이다.\n비도 그렇고, 맑음도 그렇다.'
-  },
-  {
-    id: 'overripe-fig',
-    title: 'Overripe Fig',
-    year: '2022',
-    image: 'images/ref/Overripe Fig.png',
-    emotion: '너무 익어버린 것들의 감정. 적절한 시기를 지나 과도하게 농쳐된 감각—달콤함과 부패 직전이 공존하는.',
-    scent: '발효된 무화과 · 진한 꿼 · 목재 베이스',
-    visual: '거의 무너질 듯한 과육의 텍스처. 무르익음의 절정.',
-    writing: '더 익으면 썬는다는 것을 알면서도\n나는 한 계절을 더 기다렸다.'
-  },
-  {
-    id: 'white-dance',
-    title: 'White Dance',
-    year: '2022',
-    image: 'images/ref/White Dance.png',
-    emotion: '하였 것들의 움직임. 색이 없는 것이 가장 많은 것을 담는다는 역설. 백색의 감정.',
-    scent: '백합 · 쌍 분말 · 베이비 파우더',
-    visual: '하였 천이 바람에 날리는 슬로모션. 형이 없는 것의 형태.',
-    writing: '아무것도 쓰이지 않은 페이지가\n가장 많은 이야기를 가지고 있다.'
-  },
-  {
-    id: 'windswept-wildrose',
-    title: 'Windswept Wildrose',
-    year: '2022',
-    image: 'images/ref/Windswept Wildrose.png',
-    emotion: '바람에 스친 야생 장미. 가꼸어지지 않은 것, 통제되지 않은 아름다움이 남기는 흔적.',
-    scent: '야생 장미 · 이끼 · 바람 · 마른 나넷잎',
-    visual: '흘트러진 꽃잎. 바람으로 인해 비대칭이 된 자연물.',
-    writing: '아무도 심지 않은 것이\n가장 깊이 뿘리를 내린다.'
-  },
-  {
-    id: 'worn-by-the-city',
-    title: 'Worn by The City',
-    year: '2022',
-    image: 'images/ref/Worn by The City.png',
-    emotion: '도시에 의해 닳아진 감각. 도시가 인간에게 새기는 감정의 마모—소음, 속도, 군중 속의 고독.',
-    scent: '콘크리트 · 커피 첌기기 · 지하철 냄새 · 식어가는 아스팔트',
-    visual: '도시의 표면—닳아진 인도, 금이 간 벽, 켜진 가로등.',
-    writing: '도시는 천청히\n나를 벗겨나갔다.\n그것을 살아가는 것이라고 불렀다.'
-  }
+ let WORKS = [];
+
+async function loadWorks() {
+  const res = await fetch('/content/works.json', { cache: 'no-store' });
+  if (!res.ok) throw new Error('works.json 로드 실패: ' + res.status);
+  WORKS = await res.json();
+}
 ];
 
 /* ──────────────────────────────────────────────
@@ -1164,3 +1071,4 @@ function resetImageUploadUI(previewWrapId, dropZoneId, previewImgId) {
   if (dropZone) dropZone.classList.remove('hidden');
   if (previewImg) previewImg.src = '';
 }
+
